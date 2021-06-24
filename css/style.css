@@ -967,12 +967,15 @@ nav.container ul li:last-child::after {
 }
 @keyframes width {
   0% {
+    -webkit-transform: scaleX(-100%);
     transform: scaleX(-100%);
   }
   50% {
+    -webkit-transform: scaleX(0%);
     transform: scaleX(0%);
   }
   100% {
+    -webkit-transform: scaleX(50%);
     transform: scaleX(-50%);
   }
 }
