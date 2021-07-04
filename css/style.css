@@ -37,6 +37,7 @@
   bottom: -35px;
   left: calc(50% - 60px);
   /* left: calc(50% - 5px); */
+  margin-left: 55px;
   border-radius: 50%;
   width: 10px;
   height: 10px;
@@ -74,9 +75,11 @@
 }
 @keyframes moving {
   0% {
+    margin-left: 0;
     transform: translateX(0);
   }
   100% {
+    margin-left: 0;
     transform: translateX(100px);
   }
 }
