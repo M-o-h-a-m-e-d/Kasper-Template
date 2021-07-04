@@ -288,6 +288,7 @@ nav.container ul li:last-child::after {
 /* start arrows */
 .arrows {
   position: absolute;
+  align-self: center;
   left: 0;
   display: flex;
   width: 100%;
