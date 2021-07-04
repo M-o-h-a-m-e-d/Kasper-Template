@@ -926,20 +926,22 @@ nav.container ul li:last-child::after {
   content: attr(value)"%";
   position: absolute;
   right: 0;
+  margin-right: -21.45px;
   top: calc(-100% - 20px );
   padding: 5px;
   background-color: #1f2021;
   background-color: var(--title-color);
   color: white;
-  transform: translateX(50%);
+  /* transform: translateX(50%); */
 }
 .skill .percentage div::after {
   content: "";
   position: absolute;
   right: 0;
   top: calc(-100% + 8px);
+  margin-right: -10px;
   color: white;
-  transform: translateX(50%);
+  /* transform: translateX(50%); */
   border-style: solid;
   border-width: 10px;
   border-color: #1f2021 transparent transparent transparent;
