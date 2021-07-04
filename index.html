@@ -5,14 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Kasper | Template Two</title>
+  <link rel="icon" type="image/png" href="favicon.png?v=2">
 	<!-- normalize file -->
 	<link rel="stylesheet" href="css/normalize.css">
 	<!-- font awesome icons library -->
 	<link rel="stylesheet" href="css/all.min.css">
-  <!-- google font -->
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
-    </style>
 	<!-- css normal style file -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -155,11 +152,11 @@
     <!-- start filter projects -->
     <ul>
       <li class="arrow"><i class="fas fa-angle-left"></i></li>
-      <li><a class="active" href="#">all</a></li>
-      <li><a href="#">app</a></li>
-      <li><a href="#">photography</a></li>
-      <li><a href="#">web</a></li>
-      <li><a href="#">print</a></li>
+      <li><div class="button active" >all</div></li>
+      <li><div class="button">app</div></li>
+      <li><div class="button">photography</div></li>
+      <li><div class="button">web</div></li>
+      <li><div class="button">print</div></li>
       <li class="arrow"><i class="fas fa-angle-right"></i></li>
     </ul>
     <!-- end filter projects -->
@@ -242,7 +239,9 @@
     <a href="#">more</a>
     <div class="portfolio-video">
       <video loop autoplay>
-        <source src="videos/portfolio-vid.mp4" type="video/mp4" loading="lazy">
+        <source src="videos/portfolio-vid.mp4" type="video/mp4">
+        <source src="videos/portfolio-vid.webm" type="video/webm">
+        please use another browser support video
       </video>
       <div>
         <h3>SUPER AWESOME VIDEO HERE</h3>
