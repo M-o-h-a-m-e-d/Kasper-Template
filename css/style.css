@@ -1007,8 +1007,10 @@ nav.container ul li:last-child::after {
 }
 #pricing .container .price header::before {
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
   width: 100%;
   height: 100%;
   border-top: 1px solid #00c7fc;
@@ -1315,20 +1317,10 @@ footer .social div {
 footer .social div p {
   text-transform: uppercase;
   font-size: 20px;
-  margin-bottom: 40px;
-  margin-top: 0;
-  position: relative;
-}
-footer .social div p::after {
-  content: "";
+  padding-bottom: 20px;
+  margin: 0 auto 20px;
+  border-bottom: 1px solid;
   width: 200px;
-  max-width: 100%;
-  height: 1px;
-  background-color: white;
-  position: absolute;
-  bottom: -20px;
-  left: 50%;
-  transform: translate(-50%, 50%);
 }
 footer .social div i {
   padding: 0 10px;
