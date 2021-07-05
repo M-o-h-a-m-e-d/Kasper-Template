@@ -262,7 +262,6 @@ nav.container ul li:last-child::after {
 .main-content .overlay {
   display: flex;
   justify-content: flex-end;
-  /* margin-top: 68px; */
   width: 65%;
   background-color: rgba(15,174,217,.5);
   background-color: var(--overlay);
@@ -372,9 +371,7 @@ nav.container ul li:last-child::after {
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  .main-content .overlay {
-    width: 80%;
-  }
+  .main-content .overlay,
   .main-content .overlay .main-text {
     width: 80%;
   }
@@ -550,7 +547,7 @@ nav.container ul li:last-child::after {
 }
 .portfolio-item {
   margin: 7.5px;
-  flex: 1 1 350px;
+  flex: 1 1 420px;
   position: relative;
   overflow: hidden;
 }
